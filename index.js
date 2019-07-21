@@ -786,25 +786,25 @@ client.on('message' ,function(message){
 
    if (rotate === 0) {
 
-   client.user.setGame("H e f i S e l f 👿", "https://www.twitch.tv/sefbot");
+   client.user.setGame("Ton message 👿", "https://www.twitch.tv/sefbot");
 
    rotate = 1;
 
    } else if (rotate === 1) {
 
-   client.user.setGame("Coder par moi 💻", "https://www.twitch.tv/selfbot");
+   client.user.setGame("Dev by Hefirox 💵", "https://www.twitch.tv/selfbot");
 
    rotate = 2;
 
   } else if (rotate === 2) {
 
-   client.user.setGame("Go rejoindre ---->discord.gg/yYxSQap<----", "https://www.twitch.tv/selfbot");
+   client.user.setGame("HefiProject 💰", "https://www.twitch.tv/selfbot");
 
-   rotate = 3;
+   tourner  =  3 ;
+Un séjour sans faille
+  } sinon  si ( rotation  ===  3 ) {
 
-  } else if (rotate === 3) {
-
-   client.user.setGame("Qui donne nitro ✔", "https://www.twitch.tv/selfbot");
+   client.user.setGame("Verified ✔", "https://www.twitch.tv/selfbot");
 
    rotate = 0;
 
