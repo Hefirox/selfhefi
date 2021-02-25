@@ -744,7 +744,7 @@ client.on('message' ,function(message){
 
     args.shift()
 
-    message.reply('Resulta : http://ip-api.com/#' + args.join("%20"))
+    message.reply('Resultat: http://ip-api.com/#' + args.join("%20"))
 
   }
 
@@ -800,9 +800,9 @@ client.on('message' ,function(message){
 
    client.user.setGame("HefiProject 💰", "https://www.twitch.tv/selfbot");
 
-   tourner  =  3 ;
-Un séjour sans faille
-  } sinon  si ( rotation  ===  3 ) {
+rotate    =  3 ;
+
+  } else if ( rotate  ===  3 ) {
 
    client.user.setGame("Verified ✔", "https://www.twitch.tv/selfbot");
 
